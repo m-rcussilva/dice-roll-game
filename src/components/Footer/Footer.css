@@ -1,14 +1,13 @@
 .container-footer {
-    min-height: 15vh;
+    height: 25vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
 }
 
 .github-link {
     text-decoration: none;
     color: #887c86;
-    margin-top: 2em;
+    padding: 0 4em;
 }
 
 .github-link:hover {
