@@ -1,0 +1,60 @@
+.container {
+    background-color: #3a3541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    gap: 120px;
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 518px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.btn {
+    background-color: #3a3541;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    border: none;
+    outline: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s ease-out;
+}
+
+.btn:hover {
+    background-color: #46404e;
+}
+
+.btn:active {
+    transform: scale(0.8);
+}
+
+.container-winner {
+    background-color: #3a3541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.winner {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
