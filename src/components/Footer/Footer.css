@@ -1,0 +1,16 @@
+.container-footer {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #887c86;
+    margin-top: 2em;
+}
+
+.github-link:hover {
+    text-decoration: revert;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Dice from "../Dice/Dice";
+import Footer from "../Footer/Footer";
 import "./DiceRoll.css";
 
 class DiceRoll extends Component {
@@ -83,6 +84,8 @@ class DiceRoll extends Component {
                         {this.state.rolling ? "Rolling..." : "Roll Dice"}
                     </button>
                 </div>
+
+                <Footer />
             </div>
         );
     }
